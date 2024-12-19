@@ -1,0 +1,15 @@
+{
+  "name": "pokefacts-cli",
+  "private": true,
+  "bin": {
+    "pokefacts": "./pokefacts.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pokefacts": "node pokefacts.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
+}
